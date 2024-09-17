@@ -1,0 +1,12 @@
+body{
+    background-color: palegreen;
+}
+h1{
+    background-color: greenyellow;
+}
+.odd{
+    color: rgb(39, 28, 194); font-family:Arial, Helvetica, sans-serif;
+}
+.even{
+    color: rgb(172, 30, 30);
+}

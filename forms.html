@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+</head>
+<body>
+    <form action="index.php" method="multipart/form-data">
+        
+        <label for="Username">Username:</label>
+        <input type="text" id="Username" placeholder="Adam" minlength="6" maxlength="15" required>
+        <br>
+        
+        <label for="pass">Password:</label>
+        <input type="password" id="pass"  minlength="6" maxlength="15" required>
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" placeholder="abc123@gmail.com">
+        <br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" placeholder="98765-43210" pattern="[0-9]{5}-[0-9]{5}">
+        <br>
+
+        <label for="dob">DOB:</label>
+        <input id="dob" type="date">
+        <br>
+
+        <label for="qun">Quantity:</label>
+        <input id="qun" type="number" min="0" max="99" value="1">
+        <br>
+        
+        <label for="title">Title:</label>
+
+        <label for="Mr">Mr:</label>
+        <input type="radio" id="Mr" name="title">
+
+        <label for="Ms"> Ms:</label>
+        <input type="radio" id="Ms" name="title">
+
+        <label for="phD"> PhD:</label>
+        <input type="radio" id="phD" name="title">
+        <br>
+
+        <label for="pay">Payment:</label>
+        <select id="Pay">
+            <option value="UPI">UPI</option>
+            <option value="Debit card">Debit card</option>
+            <option value="Credit card">Credit card</option>
+            <option Value="Voucher">Voucher</option>
+            
+        </select>
+        <br>
+
+        <input type="checkbox" id="checkbox">
+        <label for="checkbox" >Accept policies</label>
+        <br>
+
+        <label for="comment">Comment:</label>
+        <textarea id="comment" rows="3" cols="25">Enter your feedback</textarea>
+        <br>
+
+        <label for="file">File:</label>
+        <input type="file" accept="image/png,image/jpeg">
+        <br><hr>
+        <input type="reset">
+        <input type="submit">
+        
+
+    </form>
+</body>
+</html>
