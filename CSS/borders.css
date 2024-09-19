@@ -1,0 +1,17 @@
+h1{
+   border-style: dashed; 
+   border-color:#ffd138;
+   background-color: beige;
+   border-radius:15px;
+}
+h4{
+    border-style: dotted;
+    border-width: 1px;
+}
+p{
+    border-style:ridge;
+    border-top-right-radius: 10px;
+}
+body{
+    background-color: rgb(211, 255, 255);
+}
