@@ -1,0 +1,11 @@
+body{
+    border: 3px solid;
+    display:flow-root; /* makes elements within the contanier */
+    box-shadow: 4px 4px 5px rgb(0, 0, 0);
+}
+#img1{
+    float:left;
+}
+#img2{
+    float:right;
+}
