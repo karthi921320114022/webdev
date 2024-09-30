@@ -1,0 +1,19 @@
+div{
+    background-color: rgb(240, 41, 41);
+    width: 100px;
+    height: 100px;
+}
+span{
+    background-color: rgb(95, 95, 238);
+    width: 100px;
+    height: 100px;
+    display:block;
+}
+#one{
+    background-color: green;
+    display:inline;
+}
+#two{
+    background-color: yellowgreen;
+    display:inline-block;
+}
